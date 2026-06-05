@@ -1,4 +1,4 @@
-## 📖 Overview
+## Overview
 
 **PICO** is a production-grade, local-first voice assistant designed specifically for the Windows operating system. It leaps past basic chatbots by natively integrating deep system controls through tools like `nircmd` and Windows COM, alongside high-fidelity audio processing via **Vosk** (wake word), **Whisper** (transcription), and **Silero** (text-to-speech).
 
@@ -6,7 +6,7 @@ PICO is powered by an LLM-based intent engine that can leverage either robust cl
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### Core Intelligence
 
@@ -21,7 +21,7 @@ PICO is powered by an LLM-based intent engine that can leverage either robust cl
 - **Transcript Overlay**: Subtitle-like transient text overlays showing what PICO heard and its response.
 - **System Tray Integration**: Quietly runs in the background with zero desktop clutter.
 
-### 🧩 Extendable Modules
+### Extendable Modules
 
 | Module             | Description                 | capabilities                                                                                     |
 | ------------------ | --------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -75,7 +75,7 @@ graph TD
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 PICO_V1/
@@ -105,7 +105,7 @@ PICO_V1/
 
 ---
 
-## 🛠 Development
+## Development
 
 ### Adding a new Module
 
@@ -121,7 +121,7 @@ The GUI is isolated from the core blocking thread via `UIBridge(QObject)`. All P
 
 ---
 
-## 🚑 Troubleshooting
+## Troubleshooting
 
 - **`nircmd` not recognized**: Ensure `nircmd.exe` is safely unpacked in the `bin/` directory or your Windows `PATH` environment variable.
 - **Audio failures (VLC)**: Ensure the 64-bit version of VLC Media Player is installed on your OS.
@@ -130,11 +130,8 @@ The GUI is isolated from the core blocking thread via `UIBridge(QObject)`. All P
 
 ---
 
-## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 PICO rests on the shoulders of incredible open-source tools:
 
